@@ -1,3 +1,4 @@
+import 'package:book_tracker/views/widgets/app_view_body.dart';
 import 'package:flutter/material.dart';
 
 class AppView extends StatelessWidget {
@@ -5,8 +6,8 @@ class AppView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      
+    return const Scaffold(
+      body:AppViewBody() ,
     );
   }
 }
